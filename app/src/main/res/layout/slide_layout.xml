@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="119dp"
+        app:srcCompat="@drawable/eat_icon"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="113dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="149dp"
+        android:text="@string/heading"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="303dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/slide_heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="53dp"
+        android:text="@string/sample"
+        android:textAlignment="center"
+        android:textColor="@color/colorTransparentWhite" />
+</RelativeLayout>
